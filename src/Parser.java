@@ -84,7 +84,7 @@ public class Parser {
 	
 	// This method gets the image from the filepath and returns a BufferedImage
 	public static BufferedImage getImage(String filePath) throws IOException{
-		// https://stackoverflow.com/questions/10391778/create-a-bufferedimage-from-file-and-make-it-type-int-argb
+		
 		File rawImage = new File(filePath);
 		BufferedImage image = ImageIO.read(rawImage);
 		/*
